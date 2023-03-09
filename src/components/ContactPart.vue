@@ -123,7 +123,6 @@ export default {
 
 
 .info1{
-    margin-left:30%;
     align-items: center;
 display: flex;
 flex-wrap: wrap;
@@ -194,6 +193,11 @@ img {
         flex-direction: column;
         flex-wrap: wrap;
         padding: 1vmax;
+    }
+    .info1{
+         display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
     }
   
     .form input {

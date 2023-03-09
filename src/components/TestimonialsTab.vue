@@ -48,7 +48,7 @@ export default {
 }
 .info span{
    padding:1rem;
-   color:#E6E6E6;
+color: #545D7A;
    font-weight:100;
     font-size: 2vw;
    font-style: normal;
