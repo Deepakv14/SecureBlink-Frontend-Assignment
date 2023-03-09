@@ -7,8 +7,10 @@
             <p>It's a comprehensive online learning platform for everyone looking to learn and course pro. provinding this platform which is very beneficial for practicals. Students can revise everything at home like dissection and slides</p>
             <div class="User">
             <img src="../assets/Earners/jonas-kakaroto-mjRwhvqEC0U-unsplash.png" alt="">
+            <div class="info">
             <h4>Jonas Kakaroto</h4>
             <span>Yesterday</span>
+            </div>
             </div>
         </div>
 
@@ -16,8 +18,10 @@
             <p>It's A Comprehensive Online Learning Platform For Everyone Looking To Learn And Course Pro. Provinding This Platform Which Is Very Beneficial For Practicals. Students Can Revise Everything At Home Like Dissection And Slides</p>
             <div class="User">
            <img src="../assets/Earners/luis-villasmil-hh3ViD0r0Rc-unsplash.png" alt="">
+             <div class="info">
             <h4>Rajkumar Jain</h4>
             <span>Yesterday</span>
+             </div>
             </div>
         </div>
     </div>
@@ -35,27 +39,32 @@ export default {
 <style scoped>
 .User{
     display:flex;
-    padding:0;
     align-items: center;
 }
-.User>span{
+.info{
+     align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.info span{
    padding:1rem;
    color:#E6E6E6;
    font-weight:100;
-    font-size: 0.8rem;
+    font-size: 2vw;
    font-style: normal;
 }
-.User img{
-    width:40px;
-    height:40px;
+.User>img{
+    width:8vw;
+    height:8vw;
   border-radius:50%;
-  padding:4px;
+  padding:3vw;
 }
-.User>h4{
+.info >h4{
     font-weight:100;
     font-weight: bold;
-    font-size: 1rem;
+    font-size: 3vw;
 }
+
 p {
     font-style: italic;
     color: #01CB63;
@@ -132,5 +141,6 @@ span {
     h6{
         font-size: 3.5vw;
     }
+
 }
 </style>

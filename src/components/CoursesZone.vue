@@ -1,8 +1,8 @@
 <template>
-<div>
+<div class="courses">
     <p>Courses</p>
     <h4 >Our Most Popular Courses</h4>
-    <div class="courses">
+        <div class="card-row">
         <div class="card">
             <img src="../assets/Career/career1.jpeg" alt="" id="images">
             <p>Ultimate Business Intelligence Analyst A to Z Course 2021</p>
@@ -68,7 +68,7 @@
             <span>₹2000</span>
             </div>
         </div>
-    </div>
+        </div>
 </div>
 </template>
 
@@ -79,7 +79,15 @@ export default {
 </script>
 
 <style scoped>
-
+p{
+    color:#01CB63;
+    font-style:italic;
+    font-size: 1.2rem;
+}
+h4{
+     font-size: 1.5rem;
+     font-weight:bold;
+}
 span {
     font-weight: 100;
     font-style: italic;
@@ -126,6 +134,10 @@ span {
     padding:0;
     align-items: center;
 }
+.User>p{
+    font-weight:100;
+    font-size: 0.8rem;
+}
 .User>span{
    padding:2rem;
    color:#01CB63;
@@ -138,10 +150,7 @@ span {
   border-radius:50%;
   padding:4px;
 }
-.User>p{
-    font-weight:100;
-    font-size: 0.8rem;
-}
+
 .number {
     margin-top:-1rem;
     font-size: 1rem;
@@ -156,7 +165,7 @@ span {
     text-align: center;
 }
 
-.courses {
+.card-row{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -192,6 +201,15 @@ span {
         width: auto;
         height: auto;
     }
+    p{
+    color:#01CB63;
+    font-style:italic;
+    font-size: 0.8rem;
+}
+h4{
+     font-size: 1rem;
+     font-weight:bold;
+}
 }
 @media only screen and (max-width: 992px) {
     .card {
