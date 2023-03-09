@@ -12,6 +12,8 @@
     <br/>
     <TestimonialsTab />
     <ContactUs />
+    <br/>
+    <br/>
     <FooterPart />
 </div>
 </template>
